@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 ```
 
-**Verilerin yüklenmesi***
+**Verilerin yüklenmesi**
 ```
 data=pd.read_excel("matplot.xlsx")
 ```
