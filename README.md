@@ -11,7 +11,7 @@ Kütüphaneyi import etme
 import matplotlib.pyplot as plt
 ```
 
-Grafiklerin gözükmesini sağlar
+Grafiklerin gözükmesini sağlamak için;
 ```
 %matplotlib inline
 ```
