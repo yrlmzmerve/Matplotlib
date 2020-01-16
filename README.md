@@ -21,10 +21,14 @@ import matplotlib.pyplot as plt
 data=pd.read_excel("matplot.xlsx")
 ```
 
-**Veri tipinin floata çevrilmesi***
+**Veri tipinin floata çevrilmesi**
 ```
 data['enflasyon'] = data['enflasyon'].astype('float')
 data['issizlik'] = data['issizlik'].astype('float')
 ```
 
+**2 boyutlu ve 3 boyutlu grafikler oluşturmaya yarar**
+ 
  <a href="http://fvcproductions.com"><img src="https://matplotlib.org/3.1.1/_images/sphx_glr_align_ylabels_0011.png" title="FVCproductions" alt="FVCproductions"></a>
+
+ <a href="http://fvcproductions.com"><img src="https://matplotlib.org/3.1.1/_images/sphx_glr_whats_new_1_subplot3d_001.png" title="FVCproductions" alt="FVCproductions"></a>
