@@ -2,6 +2,9 @@
 
 https://matplotlib.org/3.1.1/index.html
 
+*Veri görselleştirmeye yarayan python kütüphanesidir.*
+
+Veri görselleştirme, karmaşık ve dağınık verileri düzenleyerek kolay anlaşılabilir, yorumlanabilir hale getirmektir.
 
 Kütüphaneyi import etme
 ```
