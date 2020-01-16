@@ -6,22 +6,22 @@ https://matplotlib.org/3.1.1/index.html
 
 Veri görselleştirme, karmaşık ve dağınık verileri düzenleyerek kolay anlaşılabilir, yorumlanabilir hale getirmektir.
 
-Kütüphaneyi import etme
+**Kütüphaneyi import etme**
 ```
 import matplotlib.pyplot as plt
 ```
 
-Grafiklerin gözükmesini sağlamak için;
+**Grafiklerin gözükmesini sağlamak**
 ```
 %matplotlib inline
 ```
 
-**Verilerin yüklenmesi
+**Verilerin yüklenmesi***
 ```
 data=pd.read_excel("matplot.xlsx")
 ```
 
-Veri tipinin floata çevrilmesi
+**Veri tipinin floata çevrilmesi***
 ```
 data['enflasyon'] = data['enflasyon'].astype('float')
 data['issizlik'] = data['issizlik'].astype('float')
